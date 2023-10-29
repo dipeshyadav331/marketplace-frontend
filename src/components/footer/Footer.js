@@ -16,9 +16,9 @@ function Footer() {
                     <div className="footer-left">
                         <h3 className="title">Follow us</h3>
                         <ul className="follow">
-                            <li className="hover-link center">
-                                <AiOutlineInstagram />
-                            </li>
+                                <li className="hover-link center">
+                                    <AiOutlineInstagram />
+                                </li>
                             <li className="hover-link center">
                                 <AiOutlineFacebook />
                             </li>
@@ -47,7 +47,7 @@ function Footer() {
                     <div className="credit-card-img">
                         <img src={creditCardImg} alt="credit card img" />
                     </div>
-                    <p>Copyright {new Date().getFullYear()} © <strong>Posterz.</strong></p>
+                    <p>Copyright {new Date().getFullYear()} © <strong>Marketify</strong></p>
                 </div>
             </div>
         </footer>
