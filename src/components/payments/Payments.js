@@ -32,7 +32,7 @@ function Payments() {
         <div className="Payments">
             <div className="icon">{infoData[status].icon}</div>
             <h2 className="message">{infoData[status].message}</h2>
-            <a href="http://localhost:3000/#/">
+            <a href="https://marketplace-mw28.onrender.com/#/">
                 <button className="btn-primary">{infoData[status].cta}</button>
             </a>
         </div>
