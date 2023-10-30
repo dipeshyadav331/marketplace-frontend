@@ -98,7 +98,7 @@ function ProductDetail() {
             </div>
 
             {!isCartEmpty && (
-              <div className="checkout-info">
+              <div className="checkout-infoo">
                 <div className="total-amount">
                   <h3 className="total-message">Total:</h3>
                   <h3 className="total-value">₹ {totalAmount}</h3>
